@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairly Serious Productions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-red': '#dc2626'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-black text-white min-h-screen">
+    <div class="container mx-auto px-4 py-8 md:py-16">
+        <!-- Header Section -->
+        <header class="text-center mb-12 md:mb-20">
+            <!-- Logo -->
+            <div class="mb-8">
+                <img src="logo.png" alt="Fairly Serious Productions Logo" class="w-24 h-24 md:w-32 md:h-32 mx-auto rounded-full border-2 border-white">
+            </div>
+            
+            <!-- Title -->
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 tracking-tight">
+                Fairly Serious Productions
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="text-lg md:text-xl text-gray-300 font-light">
+                Serious Craftsmanship for Immersive Play
+            </p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="max-w-4xl mx-auto">
+            <!-- About Section -->
+            <section class="mb-16">
+                <div class="max-w-3xl mx-auto">
+                    <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-center text-white">
+                        About Us
+                    </h2>
+                    <div class="text-lg md:text-xl leading-relaxed text-gray-200 space-y-4">
+                        <p>
+                            Fairly Serious Productions is an immersive design studio for theatre, escape rooms, and ARGs—specializing in story-craft, diegetic game mechanics, and real-time show systems.
+                        </p>
+                        <p>
+                            We write storyworlds with an ear for form and language, then pair them with puzzles and interactions that live fully inside the fiction. Designs emphasize collaborative choice, inviting players and performers to carve a unique shared path through the plot.
+                        </p>
+                        <p>
+                            Behind the scenes, built-for-show software personalizes each run, tracking player progress, cueing adaptive story beats, and powering AI characters who remember, converse, and stay in voice.
+                        </p>
+                        <p>
+                            We're happy to consult on ideation, editing, writing, and experience design. We also love collaborating with fellow makers on productions, either remotely or on-site in the Houston area.
+                        </p>
+                    </div>
+
+                    <!-- Contact Us -->
+                    <div class="mb-12">
+                        <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-center text-white">
+                            Contact Us
+                        </h2>
+                        <div class="text-lg md:text-xl leading-relaxed text-gray-200 space-y-4">
+                            <p>
+                                You can reach Cody and Rachel, the co-founders and creative directors, at <a href="mailto:hey@fairlyseriousproductions.com" class="text-brand-red hover:text-white transition-colors">
+                                    hey@fairlyseriousproductions.com
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
